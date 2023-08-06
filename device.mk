@@ -5,6 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+PRODUCT_PLATFORM := ums512
+
 LOCAL_PATH := device/samsung/gta8
 
 PRODUCT_PACKAGES += \
