@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_gta8.mk
+    $(LOCAL_DIR)/twrp_gta8.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_gta8-user \
-    omni_gta8-userdebug \
-    omni_gta8-eng
+    twrp_gta8-user \
+    twrp_gta8-userdebug \
+    twrp_gta8-eng
