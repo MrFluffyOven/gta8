@@ -9,6 +9,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_gta8.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_gta8-user \
-    twrp_gta8-userdebug \
     twrp_gta8-eng
