@@ -5,8 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_gta8.mk
-
-COMMON_LUNCH_CHOICES := \
-    twrp_gta8-eng
+add_lunch_combo twrp_gta8-eng
