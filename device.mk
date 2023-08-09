@@ -1,7 +1,7 @@
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-LOCAL_PATH := device/samsung/gta8wifi
+LOCAL_PATH := device/samsung/gta8
 
 PRODUCT_PLATFORM := ums512
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -20,7 +20,7 @@ PRODUCT_PACKAGES += \
     bootctrl.$(PRODUCT_PLATFORM).recovery \
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := X200XXS3CWG2
+TW_DEVICE_VERSION := X205XXS3CWG1
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
