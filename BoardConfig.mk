@@ -11,7 +11,6 @@ DEVICE_PATH := device/samsung/gta8
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
-# Architecture
 TARGET_IS_64_BIT := true
 TARGET_SUPPORTS_32_BIT_APPS := true
 TARGET_SUPPORTS_64_BIT_APPS := true
