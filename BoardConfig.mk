@@ -61,6 +61,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := gta8_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gta8
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
